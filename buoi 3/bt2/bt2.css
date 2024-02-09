@@ -1,0 +1,39 @@
+.contianer{
+    margin: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'sogue UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: cent;
+}
+.header{
+    background-color: rgb(27,130,130);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.col{
+    float:left;
+    width: 30%;
+    height:550px;
+    gap :5%
+}
+.body1{
+    display:flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: rgb(27,130,130);
+    padding: 20px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+/* xử lý web responsive */
+@media (max-width:600px){
+    .body1{
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+    }
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: aqua;
+}
+.content-profile{
+    min-height: 400px;
+    width: 100%;
+    margin: 30px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 92px #00000012;
+}
+
+
+.btap{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+
+.buoi1 {
+    text-align: center;
+    border: 3px solid yellow;
+    border-radius: 10px;
+}
+@keyframes blink {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+
+.buoi1 h1{
+    font-size: 25px;
+    height: 200px;
+    width: 70px;
+    text-align: center;
+    animation: blink 2s linear infinite;
+}
+.buoi1 li {
+    list-style-type: none;
+    text-align: center;
+    padding: 5px 0;
+}
+.buoi1 li a {
+    color: antiquewhite;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.buoi1 li a:hover {
+    color: greenyellow; 
+}

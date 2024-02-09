@@ -1,0 +1,35 @@
+.contianer{
+    margin: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'sogue UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    background-color: rgb(27,130,130);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.col{
+    float:left;
+    width: 33%;
+    height:550px;
+}
+.body:after{
+    content: "";
+    clear:both;
+    display:block;
+}
+.footer{
+    background-color: rgb(27,130,130);
+    padding: 20px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+/* xử lý web responsive */
+@media (max-width:600px){
+    .col{
+        width: 100%;
+    }
+}
